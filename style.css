@@ -96,3 +96,9 @@ p {
 .homepage-link a:hover {
 	color: var(--accent-color);
 }
+
+@media (max-width: 576px) {
+	h1 {
+		font-size: medium;
+	}
+}
