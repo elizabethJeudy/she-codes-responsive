@@ -91,9 +91,14 @@ p {
 	justify-content: center;
 	border-radius: 5px;
 }
-.navigation-links a:hover,
-.primary-link a:hover,
+
 .homepage-link a:hover {
+	color: var(--accent-color);
+}
+.primary-link a:hover {
+	color: var(--accent-color);
+}
+.navigation-links a:hover {
 	color: var(--accent-color);
 }
 
