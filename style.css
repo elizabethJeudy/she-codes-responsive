@@ -51,7 +51,7 @@ p {
 }
 
 .navigation-links a:hover {
-	color: var(--secondary-color);
+	color: #fff;
 }
 
 .contact-link {
