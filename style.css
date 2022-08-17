@@ -51,7 +51,7 @@ p {
 }
 
 .navigation-links a:hover {
-	color: var(--primary-color);
+	color: var(--secondary-color);
 }
 
 .contact-link {
@@ -94,7 +94,7 @@ p {
 	border-radius: 5px;
 }
 
-.primary-link:hover {
+.primary-link a:hover {
 	color: var(--secondary-color);
 	opacity: 0.5;
 }
