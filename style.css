@@ -51,10 +51,6 @@ p {
 	text-transform: capitalize;
 }
 
-.navigation-links a:hover {
-	color: var(--accent-color);
-}
-
 .contact-link {
 	background: var(--primary-color);
 	box-shadow: var(--box-shadow);
@@ -95,8 +91,8 @@ p {
 	justify-content: center;
 	border-radius: 5px;
 }
-
-.primary-link a:hover {
+.navigation-links a:hover,
+.primary-link a:hover,
+.homepage-link a:hover {
 	color: var(--accent-color);
-	opacity: 0.5;
 }
