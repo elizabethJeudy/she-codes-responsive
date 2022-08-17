@@ -1,6 +1,7 @@
 :root {
 	--primary-color: #eeab85;
 	--secondary-color: #f5e8e4;
+	--accent-color: #ac4425;
 	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -51,7 +52,7 @@ p {
 }
 
 .navigation-links a:hover {
-	color: #fff;
+	color: var(--accent-color);
 }
 
 .contact-link {
@@ -81,6 +82,7 @@ p {
 
 .email-link:hover {
 	text-decoration: underline;
+	color: var(--accent-color);
 }
 
 .primary-link {
@@ -95,6 +97,6 @@ p {
 }
 
 .primary-link a:hover {
-	color: var(--secondary-color);
+	color: var(--accent-color);
 	opacity: 0.5;
 }
