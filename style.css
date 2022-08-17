@@ -92,10 +92,10 @@ p {
 	border-radius: 5px;
 }
 
-.homepage-link a:hover {
+.homepage-link:hover {
 	color: var(--accent-color);
 }
-.primary-link a:hover {
+.primary-link:hover {
 	color: var(--accent-color);
 }
 .navigation-links a:hover {
