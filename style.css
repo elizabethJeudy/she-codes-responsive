@@ -50,6 +50,10 @@ p {
 	text-transform: capitalize;
 }
 
+.navigation-links a:hover {
+	color: var(--primary-color);
+}
+
 .contact-link {
 	background: var(--primary-color);
 	box-shadow: var(--box-shadow);
